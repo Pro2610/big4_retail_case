@@ -1,0 +1,521 @@
+store_id,city,region,opening_date
+1001,South Sophialand (Coastal),Coastal,2022-02-11
+1002,Sherimouth (Highlands),Highlands,2020-11-10
+1003,Brittanyfort (North),North,2022-02-20
+1004,Martinezton (Suburban),Suburban,2022-10-02
+1005,West Lisaton (Coastal),Coastal,2022-10-05
+1006,New Aaronmouth (North),North,2021-04-15
+1007,Brittanyfort (North),North,2020-10-17
+1008,Ramirezborough (Highlands),Highlands,2021-07-26
+1009,East Jamesland (South),South,2021-10-01
+1010,Danafort (South),South,2023-01-16
+1011,Hendersonfort (Highlands),Highlands,2023-06-13
+1012,New Jillhaven (Rural),Rural,2021-07-15
+1013,West Michelleborough (West),West,2022-01-10
+1014,Lake Alisonfurt (Rural),Rural,2022-08-27
+1015,New Aaronmouth (North),North,2022-09-24
+1016,Maryborough (North),North,2022-12-22
+1017,Port Lindsay (Central),Central,2021-12-03
+1018,Amandaberg (East),East,2021-06-14
+1019,Danafort (South),South,2023-03-02
+1020,North David (Central),Central,2020-10-19
+1021,West Christy (Industrial),Industrial,2022-01-12
+1022,Danafort (South),South,2021-08-28
+1023,Lake Tara (Rural),Rural,2022-04-01
+1024,East Scottstad (Coastal),Coastal,2022-01-04
+1025,Lake Michael (Suburban),Suburban,2021-10-09
+1026,Danafort (South),South,2021-02-06
+1027,New Aaronmouth (North),North,2021-03-16
+1028,Justinmouth (Metro),Metro,2021-11-01
+1029,Port Christine (Coastal),Coastal,2021-05-14
+1030,Lake Alisonfurt (Rural),Rural,2021-11-08
+1031,Lake Danshire (Coastal),Coastal,2023-05-04
+1032,Lake Ashleyfort (West),West,2021-09-30
+1033,Abbottmouth (Touristic),Touristic,2022-03-13
+1034,Danafort (South),South,2023-02-07
+1035,North David (Central),Central,2021-12-13
+1036,West Michael (Metro),Metro,2021-05-14
+1037,Lake Autumn (Touristic),Touristic,2022-09-06
+1038,North David (Central),Central,2022-11-08
+1039,East Jamesland (South),South,2021-11-29
+1040,New Josephbury (Suburban),Suburban,2022-03-03
+1041,Walkerstad (East),East,2021-10-08
+1042,Fitzpatrickmouth (East),East,2022-09-02
+1043,Hendersonfort (Highlands),Highlands,2023-05-31
+1044,Maryview (Industrial),Industrial,2020-12-26
+1045,Samanthaland (Suburban),Suburban,2021-12-02
+1046,Lake Danshire (Coastal),Coastal,2022-05-24
+1047,Walkerland (Touristic),Touristic,2023-07-28
+1048,Lake Alisonfurt (Rural),Rural,2022-11-13
+1049,Lake Alisonfurt (Rural),Rural,2021-01-13
+1050,East Jamesland (South),South,2022-11-03
+1051,Port Lindsay (Central),Central,2021-12-14
+1052,Ashleyberg (Touristic),Touristic,2021-11-09
+1053,East Jamesland (South),South,2021-03-16
+1054,Ashleyberg (Touristic),Touristic,2022-10-20
+1055,North David (Central),Central,2021-10-29
+1056,Lake Alisonfurt (Rural),Rural,2021-08-07
+1057,North David (Central),Central,2023-07-26
+1058,Sherimouth (Highlands),Highlands,2022-07-19
+1059,East Scottstad (Coastal),Coastal,2021-12-01
+1060,West Michael (Metro),Metro,2024-03-21
+1061,Amandaberg (East),East,2020-12-11
+1062,Yvonnemouth (South),South,2022-01-19
+1063,New Aaronmouth (North),North,2025-03-24
+1064,North Gabrielle (Central),Central,2021-01-21
+1065,Abbottmouth (Touristic),Touristic,2021-06-01
+1066,Ramirezborough (Highlands),Highlands,2022-10-04
+1067,Jeffreyport (Metro),Metro,2021-04-17
+1068,Fitzpatrickmouth (East),East,2023-09-15
+1069,Sherimouth (Highlands),Highlands,2022-11-15
+1070,North Gabrielle (Central),Central,2022-04-21
+1071,Sherimouth (Highlands),Highlands,2022-12-10
+1072,North David (Central),Central,2022-05-13
+1073,Ramirezborough (Highlands),Highlands,2021-09-29
+1074,Ayalaton (Industrial),Industrial,2021-04-09
+1075,Lake Ashleyfort (West),West,2022-02-15
+1076,East Jamesland (South),South,2022-06-08
+1077,West Thomasstad (East),East,2021-12-07
+1078,West Christy (Industrial),Industrial,2021-05-14
+1079,Collinsshire (North),North,2021-03-06
+1080,Lake Tara (Rural),Rural,2022-08-09
+1081,Port Lindsay (Central),Central,2020-11-24
+1082,Maryborough (North),North,2021-08-07
+1083,Sherimouth (Highlands),Highlands,2022-10-23
+1084,West Lisaton (Coastal),Coastal,2022-09-21
+1085,Elizabethburgh (Rural),Rural,2021-09-28
+1086,East Annborough (East),East,2021-12-05
+1087,Samanthaland (Suburban),Suburban,2022-01-04
+1088,Lake Carol (Industrial),Industrial,2021-01-30
+1089,Williamsstad (Touristic),Touristic,2022-06-12
+1090,Justinmouth (Metro),Metro,2022-01-09
+1091,Ramirezborough (Highlands),Highlands,2021-03-03
+1092,Hendersonfort (Highlands),Highlands,2020-11-05
+1093,Justinmouth (Metro),Metro,2022-04-01
+1094,New Aaronmouth (North),North,2021-08-15
+1095,East Jamesland (South),South,2022-12-18
+1096,New Christopherstad (Metro),Metro,2021-11-13
+1097,Yvonnemouth (South),South,2020-11-17
+1098,New Jillhaven (Rural),Rural,2022-12-04
+1099,East Jamesland (South),South,2022-10-03
+1100,Lake Tara (Rural),Rural,2023-10-03
+1101,Martinezton (Suburban),Suburban,2020-12-22
+1102,West Lisaton (Coastal),Coastal,2020-11-30
+1103,Brittanyfort (North),North,2021-01-25
+1104,Roberttown (West),West,2022-01-16
+1105,East Annborough (East),East,2021-01-16
+1106,Port Lindsay (Central),Central,2021-08-29
+1107,Elizabethburgh (Rural),Rural,2022-01-10
+1108,Jeffreyport (Metro),Metro,2022-08-11
+1109,Yvonnemouth (South),South,2022-05-21
+1110,Justinmouth (Metro),Metro,2022-06-16
+1111,West Michael (Metro),Metro,2022-01-17
+1112,East Jamesland (South),South,2021-12-14
+1113,Danafort (South),South,2022-02-11
+1114,Lake Danshire (Coastal),Coastal,2021-11-15
+1115,New Christopherstad (Metro),Metro,2021-03-08
+1116,Martinezton (Suburban),Suburban,2022-04-19
+1117,Frankside (West),West,2021-09-03
+1118,East Annborough (East),East,2023-03-04
+1119,Martinezton (Suburban),Suburban,2022-08-21
+1120,New Hector (Suburban),Suburban,2022-05-10
+1121,Maryview (Industrial),Industrial,2021-02-23
+1122,Walkerland (Touristic),Touristic,2021-06-12
+1123,New Hector (Suburban),Suburban,2023-08-01
+1124,Walkerstad (East),East,2022-06-04
+1125,Frankside (West),West,2021-11-15
+1126,West Christy (Industrial),Industrial,2023-03-03
+1127,Lake Tara (Rural),Rural,2022-01-27
+1128,Roberttown (West),West,2022-02-17
+1129,Abbottmouth (Touristic),Touristic,2022-09-17
+1130,New Shawn (West),West,2021-04-24
+1131,East Scottstad (Coastal),Coastal,2021-05-02
+1132,East Makayla (North),North,2021-01-17
+1133,West Michael (Metro),Metro,2022-04-03
+1134,Frankside (West),West,2021-06-08
+1135,West Michael (Metro),Metro,2022-07-07
+1136,East Scottstad (Coastal),Coastal,2021-07-13
+1137,Jacobschester (West),West,2023-04-22
+1138,New Shawn (West),West,2021-06-02
+1139,Frankside (West),West,2022-08-28
+1140,New Shawn (West),West,2021-07-10
+1141,New Jillhaven (Rural),Rural,2022-09-03
+1142,West Michael (Metro),Metro,2021-10-19
+1143,Maryview (Industrial),Industrial,2022-10-23
+1144,Maryview (Industrial),Industrial,2022-03-01
+1145,Sherimouth (Highlands),Highlands,2024-03-22
+1146,New Shawn (West),West,2021-07-11
+1147,Fitzpatrickmouth (East),East,2021-10-29
+1148,Hughesside (Industrial),Industrial,2021-10-27
+1149,Danafort (South),South,2022-07-20
+1150,Ramirezborough (Highlands),Highlands,2021-05-29
+1151,Sherimouth (Highlands),Highlands,2021-06-25
+1152,Danafort (South),South,2021-11-09
+1153,West Thomasstad (East),East,2022-06-29
+1154,Bakermouth (East),East,2023-03-26
+1155,Amandaberg (East),East,2022-06-27
+1156,New Christopherstad (Metro),Metro,2021-09-18
+1157,Lake Alisonfurt (Rural),Rural,2020-12-11
+1158,Hughesside (Industrial),Industrial,2021-05-15
+1159,Amandaberg (East),East,2020-11-22
+1160,Lake Todd (Suburban),Suburban,2021-08-28
+1161,New Jill (North),North,2021-09-05
+1162,Ashleyberg (Touristic),Touristic,2023-03-10
+1163,Danafort (South),South,2021-06-09
+1164,Abbottmouth (Touristic),Touristic,2022-02-28
+1165,Hendersonfort (Highlands),Highlands,2022-04-15
+1166,West Michelleborough (West),West,2023-07-14
+1167,North Gabrielle (Central),Central,2021-08-11
+1168,North David (Central),Central,2021-11-28
+1169,Frankside (West),West,2022-06-16
+1170,North David (Central),Central,2023-02-26
+1171,Hendersonfort (Highlands),Highlands,2023-10-09
+1172,Lake Dawn (North),North,2022-03-09
+1173,Justinmouth (Metro),Metro,2021-07-13
+1174,Lake Todd (Suburban),Suburban,2022-04-08
+1175,Lake Todd (Suburban),Suburban,2021-06-15
+1176,Samanthaland (Suburban),Suburban,2022-05-18
+1177,Collinsshire (North),North,2022-11-26
+1178,Amandaberg (East),East,2022-08-22
+1179,Maryborough (North),North,2022-10-02
+1180,West Thomasstad (East),East,2021-12-08
+1181,Jeffreyport (Metro),Metro,2021-01-28
+1182,Martinezton (Suburban),Suburban,2022-11-12
+1183,West Lisaton (Coastal),Coastal,2022-04-17
+1184,Samanthaland (Suburban),Suburban,2024-04-04
+1185,Jeffreyport (Metro),Metro,2021-12-06
+1186,Martinezton (Suburban),Suburban,2022-05-02
+1187,West Jeffrey (West),West,2022-05-26
+1188,North Gabrielle (Central),Central,2021-02-25
+1189,Danafort (South),South,2021-05-20
+1190,Jeffreyport (Metro),Metro,2021-08-19
+1191,Yvonnemouth (South),South,2021-04-03
+1192,West Lisaton (Coastal),Coastal,2023-07-26
+1193,Samanthaland (Suburban),Suburban,2021-11-03
+1194,Lake Todd (Suburban),Suburban,2020-11-15
+1195,Walkerland (Touristic),Touristic,2024-03-22
+1196,Justinmouth (Metro),Metro,2021-11-25
+1197,Lake Todd (Suburban),Suburban,2023-01-17
+1198,Lake Connie (Touristic),Touristic,2022-10-03
+1199,North David (Central),Central,2022-05-23
+1200,New Shawn (West),West,2024-03-07
+1201,Fitzpatrickmouth (East),East,2022-02-21
+1202,Yvonnemouth (South),South,2022-08-25
+1203,West Michael (Metro),Metro,2021-09-26
+1204,Danafort (South),South,2022-03-20
+1205,Roberttown (West),West,2021-04-22
+1206,East Jamesland (South),South,2021-12-11
+1207,Hughesside (Industrial),Industrial,2021-08-08
+1208,East Jamesland (South),South,2022-12-01
+1209,Ashleyberg (Touristic),Touristic,2021-09-23
+1210,Hughesside (Industrial),Industrial,2023-09-17
+1211,Walkerstad (East),East,2021-03-07
+1212,Fitzpatrickmouth (East),East,2021-04-28
+1213,Jacobschester (West),West,2024-07-14
+1214,Ramirezborough (Highlands),Highlands,2023-01-06
+1215,East Annborough (East),East,2021-08-01
+1216,Lake Ashleyfort (West),West,2022-01-09
+1217,Lake Autumn (Touristic),Touristic,2022-01-14
+1218,New Josephbury (Suburban),Suburban,2021-01-28
+1219,Port Christine (Coastal),Coastal,2021-10-12
+1220,Frankside (West),West,2021-01-13
+1221,East Scottstad (Coastal),Coastal,2021-07-22
+1222,Walkerland (Touristic),Touristic,2021-04-13
+1223,Lake Dawn (North),North,2023-11-30
+1224,New Josephbury (Suburban),Suburban,2021-06-06
+1225,Jeffreyport (Metro),Metro,2020-11-20
+1226,Ramirezborough (Highlands),Highlands,2021-02-16
+1227,Samanthaland (Suburban),Suburban,2022-07-31
+1228,North David (Central),Central,2022-11-28
+1229,East Jamesland (South),South,2024-06-18
+1230,Jacobschester (West),West,2021-06-30
+1231,Yvonnemouth (South),South,2022-09-04
+1232,North Gabrielle (Central),Central,2022-11-11
+1233,Walkerstad (East),East,2021-07-05
+1234,Fitzpatrickmouth (East),East,2023-08-11
+1235,Hughesside (Industrial),Industrial,2022-10-27
+1236,Hendersonfort (Highlands),Highlands,2021-08-06
+1237,Samanthaland (Suburban),Suburban,2021-11-02
+1238,Lake Alisonfurt (Rural),Rural,2021-12-17
+1239,Walkerland (Touristic),Touristic,2021-09-28
+1240,Yvonnemouth (South),South,2021-06-25
+1241,Maryborough (North),North,2023-09-28
+1242,Hendersonfort (Highlands),Highlands,2022-09-21
+1243,North Gabrielle (Central),Central,2022-07-10
+1244,Maryview (Industrial),Industrial,2022-03-01
+1245,North Gabrielle (Central),Central,2021-03-21
+1246,Lake Tara (Rural),Rural,2022-04-11
+1247,Yvonnemouth (South),South,2021-04-06
+1248,Yvonnemouth (South),South,2022-07-05
+1249,Lake Dawn (North),North,2021-09-08
+1250,New Josephbury (Suburban),Suburban,2020-12-18
+1251,North David (Central),Central,2021-11-07
+1252,Bakermouth (East),East,2021-09-04
+1253,Lake Michael (Suburban),Suburban,2022-06-06
+1254,Jacobschester (West),West,2021-05-08
+1255,Walkerstad (East),East,2022-08-15
+1256,Maryborough (North),North,2022-11-11
+1257,Lake Andrew (West),West,2022-05-31
+1258,Hughesside (Industrial),Industrial,2022-07-30
+1259,Powelltown (Suburban),Suburban,2023-03-26
+1260,Lake Andrew (West),West,2023-05-04
+1261,New Christopherstad (Metro),Metro,2021-01-15
+1262,Port Lindsay (Central),Central,2022-07-13
+1263,East Makayla (North),North,2022-07-10
+1264,New Jill (North),North,2022-09-16
+1265,New Aaronmouth (North),North,2022-09-14
+1266,New Josephbury (Suburban),Suburban,2022-08-13
+1267,New Shawn (West),West,2022-05-12
+1268,Danafort (South),South,2022-11-02
+1269,Ayalaton (Industrial),Industrial,2021-08-24
+1270,Ayalaton (Industrial),Industrial,2021-03-16
+1271,Powelltown (Suburban),Suburban,2023-01-21
+1272,Sherimouth (Highlands),Highlands,2021-11-29
+1273,North David (Central),Central,2024-01-14
+1274,West Jeffrey (West),West,2022-05-09
+1275,South Sophialand (Coastal),Coastal,2023-02-25
+1276,Ashleyberg (Touristic),Touristic,2021-05-21
+1277,West Christy (Industrial),Industrial,2021-09-26
+1278,Ramirezborough (Highlands),Highlands,2021-11-03
+1279,Maryborough (North),North,2021-07-04
+1280,Brittanyfort (North),North,2022-04-10
+1281,Lake Carol (Industrial),Industrial,2021-04-29
+1282,Port Lindsay (Central),Central,2022-02-28
+1283,Bakermouth (East),East,2023-04-21
+1284,Danafort (South),South,2023-10-22
+1285,Sherimouth (Highlands),Highlands,2022-09-16
+1286,Hughesside (Industrial),Industrial,2021-10-12
+1287,Lake Tara (Rural),Rural,2022-05-08
+1288,Walkerland (Touristic),Touristic,2021-06-24
+1289,Collinsshire (North),North,2022-07-30
+1290,West Thomasstad (East),East,2020-10-26
+1291,Port Lindsay (Central),Central,2021-05-25
+1292,East Makayla (North),North,2021-11-09
+1293,Lake Danshire (Coastal),Coastal,2023-05-08
+1294,New Hector (Suburban),Suburban,2023-03-16
+1295,West Michelleborough (West),West,2023-06-13
+1296,North Gabrielle (Central),Central,2024-05-08
+1297,South Sophialand (Coastal),Coastal,2021-03-21
+1298,Lake Dawn (North),North,2021-11-28
+1299,Hendersonfort (Highlands),Highlands,2022-11-07
+1300,West Michael (Metro),Metro,2022-03-30
+1301,Lake Michael (Suburban),Suburban,2021-07-27
+1302,West Jeffrey (West),West,2023-01-28
+1303,Powelltown (Suburban),Suburban,2021-04-16
+1304,Brittanyfort (North),North,2023-03-25
+1305,North Gabrielle (Central),Central,2021-09-05
+1306,Fitzpatrickmouth (East),East,2022-04-10
+1307,New Jillhaven (Rural),Rural,2022-03-28
+1308,Hendersonfort (Highlands),Highlands,2022-05-09
+1309,Port Lindsay (Central),Central,2021-05-09
+1310,West Christy (Industrial),Industrial,2022-07-17
+1311,Danafort (South),South,2021-06-06
+1312,Powelltown (Suburban),Suburban,2021-11-25
+1313,East Annborough (East),East,2022-12-29
+1314,Lake Connie (Touristic),Touristic,2021-03-24
+1315,Ramirezborough (Highlands),Highlands,2022-08-20
+1316,Lake Autumn (Touristic),Touristic,2022-07-02
+1317,Walkerstad (East),East,2022-02-18
+1318,Lake Connie (Touristic),Touristic,2021-10-11
+1319,West Christy (Industrial),Industrial,2021-08-13
+1320,Amystad (North),North,2021-05-16
+1321,Ashleyberg (Touristic),Touristic,2020-12-11
+1322,Lake Todd (Suburban),Suburban,2022-01-24
+1323,Powelltown (Suburban),Suburban,2022-08-13
+1324,Samanthaland (Suburban),Suburban,2024-07-01
+1325,New Aaronmouth (North),North,2021-03-26
+1326,East Jamesland (South),South,2022-11-15
+1327,Maryborough (North),North,2021-03-23
+1328,Hughesside (Industrial),Industrial,2022-06-26
+1329,Yvonnemouth (South),South,2023-02-23
+1330,Jeffreyport (Metro),Metro,2022-06-14
+1331,Maryview (Industrial),Industrial,2022-09-14
+1332,Zacharyton (Industrial),Industrial,2022-11-02
+1333,West Christy (Industrial),Industrial,2022-05-19
+1334,West Michael (Metro),Metro,2020-12-03
+1335,Collinsshire (North),North,2021-10-22
+1336,Danafort (South),South,2021-04-05
+1337,Samanthaland (Suburban),Suburban,2021-12-26
+1338,Danafort (South),South,2021-04-29
+1339,Martinezton (Suburban),Suburban,2022-01-30
+1340,Ashleyberg (Touristic),Touristic,2022-08-07
+1341,West Michael (Metro),Metro,2023-05-11
+1342,Yvonnemouth (South),South,2022-06-24
+1343,West Jeffrey (West),West,2022-03-03
+1344,New Shawn (West),West,2022-08-15
+1345,Justinmouth (Metro),Metro,2021-11-18
+1346,Yvonnemouth (South),South,2022-05-19
+1347,Hughesside (Industrial),Industrial,2021-11-18
+1348,New Aaronmouth (North),North,2022-03-09
+1349,Danafort (South),South,2022-12-05
+1350,Walkerstad (East),East,2021-05-09
+1351,North David (Central),Central,2022-01-30
+1352,Ashleyberg (Touristic),Touristic,2022-02-16
+1353,North David (Central),Central,2022-04-23
+1354,Lake Tara (Rural),Rural,2022-03-03
+1355,Collinsshire (North),North,2022-03-07
+1356,Collinsshire (North),North,2021-01-31
+1357,North David (Central),Central,2021-12-18
+1358,Danafort (South),South,2022-11-27
+1359,New Shawn (West),West,2021-06-30
+1360,North David (Central),Central,2020-12-19
+1361,New Hector (Suburban),Suburban,2021-05-24
+1362,Justinmouth (Metro),Metro,2023-05-16
+1363,Jeffreyport (Metro),Metro,2022-05-14
+1364,Lake Todd (Suburban),Suburban,2020-11-14
+1365,North Gabrielle (Central),Central,2022-03-30
+1366,Jeffreyport (Metro),Metro,2022-10-25
+1367,Port Lindsay (Central),Central,2023-01-19
+1368,Danafort (South),South,2022-04-21
+1369,West Michael (Metro),Metro,2023-10-09
+1370,Hendersonfort (Highlands),Highlands,2022-02-09
+1371,Jacobschester (West),West,2023-06-25
+1372,New Jillhaven (Rural),Rural,2024-06-12
+1373,East Annborough (East),East,2021-03-26
+1374,New Hector (Suburban),Suburban,2022-06-29
+1375,South Sophialand (Coastal),Coastal,2021-12-06
+1376,Elizabethburgh (Rural),Rural,2022-09-24
+1377,Danafort (South),South,2021-12-08
+1378,South Sophialand (Coastal),Coastal,2022-05-28
+1379,Justinmouth (Metro),Metro,2021-05-10
+1380,Hendersonfort (Highlands),Highlands,2022-06-19
+1381,Bakermouth (East),East,2021-04-03
+1382,Justinmouth (Metro),Metro,2021-09-27
+1383,Ramirezborough (Highlands),Highlands,2022-02-10
+1384,Abbottmouth (Touristic),Touristic,2023-01-06
+1385,Ramirezborough (Highlands),Highlands,2023-05-11
+1386,Ramirezborough (Highlands),Highlands,2021-08-25
+1387,Yvonnemouth (South),South,2023-04-25
+1388,Lake Dawn (North),North,2023-10-18
+1389,Port Christine (Coastal),Coastal,2021-01-27
+1390,East Jamesland (South),South,2020-12-27
+1391,Williamsstad (Touristic),Touristic,2024-10-23
+1392,Walkerland (Touristic),Touristic,2021-06-19
+1393,Port Lindsay (Central),Central,2021-12-29
+1394,Yvonnemouth (South),South,2022-05-13
+1395,Sherimouth (Highlands),Highlands,2021-10-15
+1396,Yvonnemouth (South),South,2021-07-05
+1397,Ramirezborough (Highlands),Highlands,2024-01-28
+1398,East Makayla (North),North,2022-12-29
+1399,East Jamesland (South),South,2021-07-31
+1400,Hughesside (Industrial),Industrial,2021-09-06
+1401,West Christy (Industrial),Industrial,2023-09-19
+1402,Lake Andrew (West),West,2022-11-14
+1403,Sherimouth (Highlands),Highlands,2022-11-29
+1404,South Sophialand (Coastal),Coastal,2022-01-06
+1405,Port Christine (Coastal),Coastal,2022-04-18
+1406,Amystad (North),North,2022-06-29
+1407,Samanthaland (Suburban),Suburban,2021-08-26
+1408,Jacobschester (West),West,2021-11-17
+1409,Amystad (North),North,2023-06-16
+1410,New Christopherstad (Metro),Metro,2021-11-08
+1411,Hughesside (Industrial),Industrial,2022-01-30
+1412,Jeffreyport (Metro),Metro,2021-03-31
+1413,Lake Todd (Suburban),Suburban,2021-05-31
+1414,Fitzpatrickmouth (East),East,2022-03-16
+1415,Ramirezborough (Highlands),Highlands,2021-08-03
+1416,Port Lindsay (Central),Central,2021-11-17
+1417,North David (Central),Central,2021-10-16
+1418,Ashleyberg (Touristic),Touristic,2021-12-05
+1419,Port Lindsay (Central),Central,2021-06-02
+1420,West Christy (Industrial),Industrial,2022-04-15
+1421,Port Lindsay (Central),Central,2021-10-27
+1422,Lake Michael (Suburban),Suburban,2022-07-29
+1423,Hendersonfort (Highlands),Highlands,2022-07-25
+1424,East Annborough (East),East,2022-03-26
+1425,Bakermouth (East),East,2024-02-24
+1426,New Shawn (West),West,2021-09-17
+1427,Lake Todd (Suburban),Suburban,2021-08-06
+1428,West Michael (Metro),Metro,2022-12-12
+1429,Justinmouth (Metro),Metro,2021-08-22
+1430,Amandaberg (East),East,2022-02-14
+1431,West Jeffrey (West),West,2022-02-13
+1432,East Jamesland (South),South,2022-06-02
+1433,West Lisaton (Coastal),Coastal,2023-04-29
+1434,Yvonnemouth (South),South,2021-05-16
+1435,Frankside (West),West,2021-12-20
+1436,North David (Central),Central,2022-12-26
+1437,West Michelleborough (West),West,2023-09-13
+1438,Lake Autumn (Touristic),Touristic,2021-09-16
+1439,Ramirezborough (Highlands),Highlands,2023-09-13
+1440,Lake Connie (Touristic),Touristic,2021-07-16
+1441,Roberttown (West),West,2023-02-07
+1442,Port Lindsay (Central),Central,2022-02-05
+1443,Collinsshire (North),North,2021-09-02
+1444,North David (Central),Central,2022-11-26
+1445,South Sophialand (Coastal),Coastal,2021-05-18
+1446,Zacharyton (Industrial),Industrial,2022-04-09
+1447,Lake Michael (Suburban),Suburban,2021-08-23
+1448,Jacobschester (West),West,2023-03-07
+1449,North Gabrielle (Central),Central,2022-01-07
+1450,Ramirezborough (Highlands),Highlands,2022-07-21
+1451,Ayalaton (Industrial),Industrial,2021-02-07
+1452,Ramirezborough (Highlands),Highlands,2021-06-30
+1453,Maryborough (North),North,2021-09-08
+1454,Amystad (North),North,2022-06-23
+1455,Lake Autumn (Touristic),Touristic,2021-08-08
+1456,Lake Alisonfurt (Rural),Rural,2023-03-16
+1457,Brittanyfort (North),North,2021-08-23
+1458,Sherimouth (Highlands),Highlands,2021-04-05
+1459,Justinmouth (Metro),Metro,2023-01-05
+1460,Jacobschester (West),West,2022-04-22
+1461,Lake Ashleyfort (West),West,2023-07-24
+1462,Amandaberg (East),East,2021-02-28
+1463,Maryview (Industrial),Industrial,2021-05-28
+1464,Ashleyberg (Touristic),Touristic,2021-07-08
+1465,Ayalaton (Industrial),Industrial,2022-09-13
+1466,Danafort (South),South,2022-06-22
+1467,New Jill (North),North,2021-08-17
+1468,West Thomasstad (East),East,2021-08-26
+1469,New Jillhaven (Rural),Rural,2023-06-21
+1470,Lake Carol (Industrial),Industrial,2021-08-03
+1471,North Gabrielle (Central),Central,2022-09-16
+1472,Hughesside (Industrial),Industrial,2021-09-14
+1473,Lake Michael (Suburban),Suburban,2021-02-01
+1474,Sherimouth (Highlands),Highlands,2021-04-06
+1475,East Jamesland (South),South,2021-04-08
+1476,Yvonnemouth (South),South,2021-07-27
+1477,Samanthaland (Suburban),Suburban,2021-03-16
+1478,Roberttown (West),West,2021-07-15
+1479,North Gabrielle (Central),Central,2021-09-14
+1480,New Jillhaven (Rural),Rural,2022-04-22
+1481,East Makayla (North),North,2023-02-27
+1482,West Michael (Metro),Metro,2023-06-22
+1483,South Sophialand (Coastal),Coastal,2022-05-01
+1484,New Christopherstad (Metro),Metro,2022-08-30
+1485,Lake Todd (Suburban),Suburban,2021-07-14
+1486,Amystad (North),North,2021-05-12
+1487,Ashleyberg (Touristic),Touristic,2021-06-22
+1488,North Gabrielle (Central),Central,2021-08-03
+1489,New Aaronmouth (North),North,2022-11-24
+1490,Justinmouth (Metro),Metro,2021-11-19
+1491,Yvonnemouth (South),South,2022-06-24
+1492,Roberttown (West),West,2021-05-15
+1493,South Sophialand (Coastal),Coastal,2021-06-05
+1494,Jeffreyport (Metro),Metro,2023-04-28
+1495,Walkerland (Touristic),Touristic,2023-04-14
+1496,Lake Autumn (Touristic),Touristic,2021-01-23
+1497,Port Christine (Coastal),Coastal,2022-12-15
+1498,West Michelleborough (West),West,2024-01-03
+1499,North David (Central),Central,2022-06-12
+1500,Martinezton (Suburban),Suburban,2022-01-10
+1501,New Shawn (West),West,2021-03-15
+1502,Lake Andrew (West),West,2022-12-09
+1503,West Jeffrey (West),West,2021-03-26
+1504,New Christopherstad (Metro),Metro,2022-01-27
+1505,Port Lindsay (Central),Central,2021-09-26
+1506,Danafort (South),South,2023-05-19
+1507,New Christopherstad (Metro),Metro,2021-03-11
+1508,New Shawn (West),West,2021-09-28
+1509,Sherimouth (Highlands),Highlands,2022-08-10
+1510,Maryborough (North),North,2022-02-16
+1511,Hendersonfort (Highlands),Highlands,2021-03-05
+1512,West Michelleborough (West),West,2022-01-31
+1513,Lake Tara (Rural),Rural,2021-06-19
+1514,Hendersonfort (Highlands),Highlands,2021-09-16
+1515,Williamsstad (Touristic),Touristic,2022-05-09
+1516,Fitzpatrickmouth (East),East,2022-08-24
+1517,West Michael (Metro),Metro,2022-03-28
+1518,Williamsstad (Touristic),Touristic,2022-06-27
+1519,East Jamesland (South),South,2023-01-02
+1520,South Sophialand (Coastal),Coastal,2022-04-20
