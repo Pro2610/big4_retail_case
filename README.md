@@ -1,110 +1,122 @@
-Big4-Style Retail Performance Deep Dive
+**Big4-Style Retail Performance Deep Dive**
+
 📌 Project Overview
 
-This project simulates a Big4-style analytical case:
+This project simulates a Big4-style analytical case study:
+
 A client — a large national retail chain with 500+ stores — is concerned that some outlets are underperforming and dragging down regional profitability.
-As analysts, our task is to identify patterns, explain performance gaps, and provide actionable recommendations.
 
-The dataset is synthetic but realistic: it includes 12 regions, 520 stores, ~7 months of daily sales with seasonal effects, income/population differences, store lifecycle, and embedded anomalies.
+The goal: identify drivers, explain gaps, and recommend actions.
 
-🗂️ Data Description
+Dataset: synthetic but realistic → 12 regions, 520 stores, ~7 months of daily sales with seasonality, income/population context, lifecycle, and anomalies.
 
-1. sales – daily store-level performance
+🗂️ Data
 
-store_id – store identifier
+regions.csv → macro factors (region, population, avg_income)
 
-date – transaction date
+stores.csv → store master data (store_id, city, region, opening_date)
 
-revenue – daily revenue (EUR)
-
-transactions – number of receipts
-
-2. stores – store master data
-
-store_id
-
-city
-
-region
-
-opening_date
-
-3. regions – regional macro factors
-
-region
-
-population
-
-avg_income (monthly, EUR)
+sales.csv → daily store transactions (store_id, date, revenue, transactions)
 
 ⚙️ Methodology
-Data Cleaning
 
-Filtered to last 90 days (quarter) for KPIs.
+Data Cleaning (01_cleaning.sql)
 
-Removed anomalies:
+Remove anomalies (tx=0 & revenue>0, negative revenue with tx>0).
 
-transactions = 0 with positive revenue
+Winsorize revenue (p01–p99) by region/day.
 
-Extreme negative revenues (returns > sales)
+Deduplicate store-date.
 
-Winsorized outliers (1–99 percentile by region/day)
+Derive: AOV, store age buckets, per-capita revenue.
 
-KPI Tree
+KPI Core (02_kpi_core.sql)
 
-Revenue = AOV × Transactions
+Executive KPIs (Revenue, Transactions, AOV).
 
-AOV (Average Order Value) = revenue ÷ transactions
+Top/Bottom regions & stores.
 
-Transactions = store traffic
+Stores vs. regional peers (z-scores).
 
-Regional context: per-capita revenue, income elasticity, store age effect.
+Weekday seasonality & trends.
 
-Analytical Cuts (SQL)
+Store League (quartiles).
 
-Top regions by AOV
+Lifecycle cohorts.
 
-Underperforming stores vs. regional average
+Income ↔ AOV regression.
 
-Store lifecycle segmentation (new vs. mature)
+Regional Drivers (03_regional_factors.sql)
 
-Income vs AOV correlation
+Per-capita normalization.
 
-Dispersion within regions (management effect)
+Income quintiles vs. AOV.
 
-“Store league” (quartiles inside region)
+Decomposition: traffic vs. AOV contribution.
+
+Population bins.
+
+Store Lifecycle (04_store_lifecycle.sql)
+
+Ramp-up curves (weeks since opening).
+
+Cohort-by-month analysis.
+
+Time-to-benchmark: weeks until a store meets network medians.
+
+Store League & Risk (05_league_and_risk.sql)
+
+Quartiles/deciles inside region.
+
+z-scores for KPI vs peers.
+
+Risk scoring (weighted).
+
+Region-level watchlist (% of weak stores).
+
+EDA Notebook (notebooks/eda.ipynb)
+
+AOV distributions by region.
+
+Income ↔ AOV scatter with regression.
+
+Weekday seasonality.
+
+Ramp-up visualization.
+
+Risk heatmap (% stores below average).
 
 🔍 Key Findings
 
-Regional demand drivers: Higher income → higher AOV (hypothesis confirmed).
+Income elasticity: higher income → higher AOV (corr > 0).
 
-Store lifecycle: Newly opened stores ramp up differently across regions; some lag behind benchmarks.
+Lifecycle effect: some cohorts ramp faster; regional differences matter.
 
-Within-region variance: Even in the same city/region, some stores are significantly below average → management/assortment issues.
+Within-region dispersion: management/assortment plays a role beyond city economics.
 
-Seasonality: Weekends, summer months, and December show clear peaks in revenue.
+Seasonality: weekends, summer, December spikes.
 
-Data quality: Rare anomalies (negative days, test transactions) highlight the importance of cleaning.
+Risk pockets: some regions have >40% of stores under peer average.
 
 💡 Recommendations
 
-Low-income regions → focus on traffic growth (promotions, low-price bundles) instead of AOV.
+In low-income regions → focus on traffic (frequency, promotions).
 
-Weak stores within strong regions → perform management audits (staff, assortment, competitor mapping).
+For lagging stores in strong regions → management/assortment audit.
 
-New stores → implement a 30/60/90-day ramp-up playbook with benchmark tracking.
+New stores → structured 30/60/90-day benchmarks, monitor TTB.
 
-Seasonal optimization → align promotions with peak months/weekends for maximum ROI.
+Seasonal optimization → align promotions with weekends/summer/Dec.
 
-Regional dashboards → monitor store quartiles vs. peers and act on outliers.
+Use league dashboards to flag outliers continuously.
 
 📊 Deliverables
 
-SQL scripts (/sql/) for cleaning & KPIs
+SQL scripts (/sql/01_cleaning.sql … 05_league_and_risk.sql)
 
-EDA notebook (/notebooks/eda.ipynb) with visual checks (AOV distribution, correlation with income, seasonality)
+EDA notebook (/notebooks/eda.ipynb)
 
-Dashboard (Tableau/Power BI) with 5 views:
+BI dashboard (Tableau/Power BI):
 
 Executive Overview
 
@@ -114,4 +126,49 @@ Store League
 
 Lifecycle Analysis
 
-Anomalies & Data Quality
+Risk & Anomalies
+
+🚀 How to Reproduce
+
+1. Load Data
+2. 
+# Postgres example
+
+\copy raw.regions  FROM 'data/regions.csv'  CSV HEADER
+\copy raw.stores   FROM 'data/stores.csv'   CSV HEADER
+\copy raw.sales    FROM 'data/sales.csv'    CSV HEADER
+
+2. Run SQL in order
+
+01_cleaning.sql
+
+02_kpi_core.sql
+
+03_regional_factors.sql
+
+04_store_lifecycle.sql
+
+05_league_and_risk.sql
+
+3. Run Python Notebook
+jupyter notebook notebooks/eda.ipynb
+
+4. Build BI Dashboard
+
+Import sales_cleaned or v_sales_last90 into Tableau / Power BI.
+
+Replicate 5 views (Overview, Regional, League, Lifecycle, Risk).
+
+🖼️ Screenshots (placeholders)
+
+Executive Dashboard
+
+Regional Drivers
+
+Store League
+
+Lifecycle Ramp-up
+
+Risk Heatmap
+
+✨ This project demonstrates not just SQL and BI, but also business thinking & consulting-style insights — portfolio-ready for Big4/Middle Analyst case studies.
