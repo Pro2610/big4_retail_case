@@ -1,6 +1,6 @@
 **Big4-Style Retail Performance Deep Dive**
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project simulates a Big4-style analytical case study:
 
@@ -10,7 +10,7 @@ The goal: identify drivers, explain gaps, and recommend actions.
 
 Dataset: synthetic but realistic → 12 regions, 520 stores, ~7 months of daily sales with seasonality, income/population context, lifecycle, and anomalies.
 
-🗂️ Data
+**🗂️ Data**
 
 regions.csv → macro factors (region, population, avg_income)
 
@@ -18,7 +18,7 @@ stores.csv → store master data (store_id, city, region, opening_date)
 
 sales.csv → daily store transactions (store_id, date, revenue, transactions)
 
-⚙️ Methodology
+**⚙️ Methodology**
 
 Data Cleaning (01_cleaning.sql)
 
@@ -86,7 +86,7 @@ Ramp-up visualization.
 
 Risk heatmap (% stores below average).
 
-🔍 Key Findings
+**🔍 Key Findings**
 
 Income elasticity: higher income → higher AOV (corr > 0).
 
@@ -98,7 +98,7 @@ Seasonality: weekends, summer, December spikes.
 
 Risk pockets: some regions have >40% of stores under peer average.
 
-💡 Recommendations
+**💡 Recommendations**
 
 In low-income regions → focus on traffic (frequency, promotions).
 
@@ -110,7 +110,7 @@ Seasonal optimization → align promotions with weekends/summer/Dec.
 
 Use league dashboards to flag outliers continuously.
 
-📊 Deliverables
+**📊 Deliverables**
 
 SQL scripts (/sql/01_cleaning.sql … 05_league_and_risk.sql)
 
@@ -128,7 +128,7 @@ Lifecycle Analysis
 
 Risk & Anomalies
 
-🚀 How to Reproduce
+**🚀 How to Reproduce**
 
 1. Load Data
 2. 
@@ -159,7 +159,7 @@ Import sales_cleaned or v_sales_last90 into Tableau / Power BI.
 
 Replicate 5 views (Overview, Regional, League, Lifecycle, Risk).
 
-🖼️ Screenshots (placeholders)
+**🖼️ Screenshots (placeholders)**
 
 Executive Dashboard
 
@@ -170,5 +170,6 @@ Store League
 Lifecycle Ramp-up
 
 Risk Heatmap
+
 
 ✨ This project demonstrates not just SQL and BI, but also business thinking & consulting-style insights — portfolio-ready for Big4/Middle Analyst case studies.
